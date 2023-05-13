@@ -1,0 +1,162 @@
+/* ESTILOS DE RESET*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-size: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+}
+
+
+h1 {
+  color: #fd7d54;
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: lowercase;
+  letter-spacing: 0.7rem;
+}
+
+h2 {
+  color: white;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.15rem;
+  margin-top: 1.7rem;
+}
+
+h3 {
+  color: white;
+  font-size: 0.8rem;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #41c3f6;
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+hr {
+  color: white;
+  width: 10px;
+}
+
+

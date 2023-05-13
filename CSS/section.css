@@ -1,0 +1,41 @@
+
+section {
+    background-color: black;
+    margin: 100px auto;
+    width: 73%;
+    height: 650px;
+    padding-top: 3rem;
+  }
+  
+  .maintext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 90px 0px 90px;
+    gap: 4rem;
+  }
+  
+  article {
+    border: solid 4px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  article img {
+    position: relative;
+    max-width: 60%;
+  }

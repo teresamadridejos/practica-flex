@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+    section {
+      width: 90%;
+      margin: 50px auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+    }
+    h3 {
+      font-size: 0.6rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    article img {
+      max-width: 100%;
+    }
+  }
